@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-apache
-        image: localhost:32000/website:reg
+        image: localhost:32000/simplephpsql_k8s_website:k8s
         imagePullPolicy: Always
         ports:
         - containerPort: 80
